@@ -3,9 +3,8 @@ odd = 0
 even = 0
 for i in num:
     if not i%2:
-            odd+=1
-    else:
             even+=1
+    else:
+            odd+=1
 print("Number of odd num:",odd)
 print("Number of even num:",even)
- 
